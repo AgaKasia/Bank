@@ -9,7 +9,6 @@ namespace Bank
     class BankAccount
     {
         public string AccountHolder { get; set; }
-        public string SortCode { get; set; }
         public string AccountNumber { get; set; }
         public decimal Balance { get; set; }
 
